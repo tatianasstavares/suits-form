@@ -9,3 +9,46 @@
 body {
   background-color: #1a3140;
 }
+
+main.container {
+  position: relative;
+}
+
+main.container form div.form-container {
+  width: 544px;
+  height: 771px;
+  background-color: #364f5e;
+  position: absolute;
+  left: 512px;
+  top: 126px;
+}
+
+main.container form div.form-actions {
+  border: yellow solid 2px;
+  margin: 96px 87px 97px 87px;
+}
+
+main.container form div.header-information {
+  width: 194px;
+  display: flex;
+}
+
+main.container form div.form-header strong {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  color: #fcfcfc;
+}
+main.container form div.form-header p {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  color: #b8bfc4;
+}
+main.container form div.form-header a {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #b8bfc4;
+  text-decoration: none;
+  margin-left: 2px;
+}
