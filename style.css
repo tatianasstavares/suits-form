@@ -13,18 +13,26 @@ body {
 main.container {
   width: 100vw;
   height: 100vh;
-  position: relative;
   margin: auto;
   display: flex;
 }
 
-main section.logo-container,
-main section.right-section {
+main section.lef-section {
   width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+}
+main section.lef-section div.logo-name {
+  margin-top: 50px;
+}
+
+main section.right-section {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
 }
 
 main.container form div.form-container {
