@@ -81,4 +81,22 @@ main.container form div.form-inputs span {
   font-size: 14px;
   color: #b8bfc4;
   text-align: end;
+  margin-bottom: 16px;
+}
+
+main.container form div.form-inputs button {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fcfcfc;
+  text-transform: uppercase;
+  background-color: #1a3140;
+  height: 44px;
+  border: none;
+  position: relative;
+}
+
+main.container form div.form-inputs button img {
+  position: absolute;
+  right: 16px;
 }
