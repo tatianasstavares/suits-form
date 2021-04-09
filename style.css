@@ -12,6 +12,7 @@ body {
 
 main.container {
   width: 100vw;
+  height: 100vh;
   position: relative;
   margin: auto;
   display: flex;
@@ -28,20 +29,15 @@ main section.right-section {
 
 main.container form div.form-container {
   width: 544px;
-  height: 771px;
+  height: 790px;
   background-color: #364f5e;
-  left: 512px;
-  top: 126px;
-}
-
-main.container form div.form-actions {
-  margin: 96px 87px 97px 87px;
-  height: 580px;
+  padding: 96px 87px;
 }
 
 main.container form div.header-information {
   width: 194px;
   display: flex;
+  padding-bottom: 40px;
 }
 
 main.container form div.form-header strong {
@@ -75,10 +71,14 @@ main.container form div.form-inputs input {
   height: 47px;
   background-color: #364f5e;
   border: 1px solid rgba(252, 252, 252, 0.7);
-  padding: 4px;
+  padding: 12px;
   font-family: "Raleway", sans-serif;
   font-weight: 300;
   color: #fcfcfc;
+}
+
+input:focus {
+  outline: 0;
 }
 
 main.container form div.form-inputs :first-child {
@@ -91,7 +91,7 @@ main.container form div.form-inputs span {
   font-size: 14px;
   color: #b8bfc4;
   text-align: end;
-  margin-bottom: 16px;
+  margin: 8px 0 16px 0;
 }
 
 main.container form div.form-inputs button {
@@ -135,12 +135,14 @@ main.container form div.line-left {
 
 main div.icons {
   padding: 0px 32px;
-  margin-top: 60px;
+  margin: 67px 0 97px 0;
 }
 
 main div.icons ul {
   display: flex;
+  align-items: center;
   justify-content: space-around;
+  padding-top: 30px;
 }
 
 main div.icons ul li {
