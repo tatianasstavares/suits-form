@@ -100,3 +100,25 @@ main.container form div.form-inputs button img {
   position: absolute;
   right: 16px;
 }
+main.container form div.form-separation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+main.container form div.line-right {
+  width: 150px;
+  height: 1px;
+  border: solid 1px #1a3140;
+}
+main.container form div span {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  color: #fcfcfc;
+}
+main.container form div.line-left {
+  width: 150px;
+  height: 1px;
+  border: solid 1px #1a3140;
+}
